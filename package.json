@@ -4,17 +4,14 @@
   "description": "API simples com Node.js e pipeline de testes no GitHub Actions",
   "main": "index.js",
   "scripts": {
-  "start": "node server.js",
-  "test": "jest --runInBand"
-},
-
+    "start": "node index.js",
+    "test": "jest"
+  },
   "dependencies": {
     "express": "^4.21.2"
   },
 
-
-  
-  
+    
   "devDependencies": {
     "jest": "^29.7.0",
     "supertest": "^6.3.4"
