@@ -1,0 +1,27 @@
+{
+  "name": "api-simples",
+  "version": "1.0.0",
+  "description": "API simples com Node.js e pipeline de testes no GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server.js",
+  "test": "jest --runInBand"
+},
+
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+
+
+  
+  
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  },
+
+   "jest": {
+  "testEnvironment": "node"
+    }
+  
+}
